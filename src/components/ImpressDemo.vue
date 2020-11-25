@@ -123,9 +123,8 @@
       data-height="768"
       data-max-scale="3"
       data-min-scale="0"
-      data-perspective="1000"
-      data-autoplay="7"> -->
-
+      data-perspective="1000">
+      <!-- data-autoplay="7" -->
       <!--
         
         Here is where interesting thing start to happen.
@@ -442,9 +441,6 @@
 </template>
 
 <script>
-import "@/assets/css/impress-demo.css";
-// import impress from "impress.js"
-
 export default {
   name: "ImpressDemo",
   mounted() {
@@ -453,5 +449,3 @@ export default {
   },
 };
 </script>
-
-<style></style>

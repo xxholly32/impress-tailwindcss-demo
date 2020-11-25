@@ -1,5 +1,5 @@
 {
-  "name": "impress-demo",
+  "name": "impress-tailwindcss-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "tailwindcss": "^1.8.10",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.2.0",
     "@vue/cli-plugin-babel": "^4.3.0",
     "@vue/cli-plugin-eslint": "^4.3.0",
     "@vue/cli-service": "^4.3.0",
@@ -20,6 +22,9 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "impress.js": "^1.1.0",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^4.2.3",
+    "tailwindcss": "^1.8.10",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
