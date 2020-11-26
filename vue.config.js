@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/impress-demo/'
+    ? '/impress-tailwindcss-demo/'
     : '/',
   configureWebpack: {
     externals: {
